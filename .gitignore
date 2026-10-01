@@ -23,3 +23,17 @@ venv/
 __pycache__/
 .pytest_cache/
 .DS_Store
+
+# Go build output
+/erasure-server
+*.test
+
+# 本地模拟节点目录
+/data/
+/data-*/
+*.shard
+*.shard.tmp
+
+# 本地 PostgreSQL 数据目录
+/pgdata/
+*.log
