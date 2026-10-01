@@ -23,3 +23,13 @@ venv/
 __pycache__/
 .pytest_cache/
 .DS_Store
+
+# Go
+/ecstore
+/bin/
+*.test
+*.out
+
+# 运行期：模拟节点目录、临时数据
+/nodes/
+/tmp-run/
